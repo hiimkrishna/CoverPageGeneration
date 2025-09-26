@@ -29,28 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
     submissionDate,
   } = data;
 
-  // Populate preview HTML elements dynamically
-  const idMap = {
-    CoverPhotoTitle: title,
-    CoverPageType:
-      reportType === "labReport"
-        ? `Lab Report No: ${reportNo || 1}`
-        : `Assignment`,
-    CourseName: courseName,
-    Courseode: courseCode,
-    FacultyName: facultyName,
-    FacultyDesignation: designation,
-    FacultyDepartment: `Department of ${department}, IUBAT`,
-    StudentName: studentName,
-    StudentId: `ID: ${studentIdFromData}`,
-    StudentSection: `Section: ${section}`,
-    DateOfSubmission: submissionDate,
-  };
-
-  Object.entries(idMap).forEach(([id, value]) => {
-    const element = document.getElementById(id);
-    if (element) element.textContent = value;
-  });
+ 
 
   // Download PDF functionality
   const downloadPdf = document.getElementById("downloadPdf");

@@ -10,16 +10,17 @@
         .font-times {
           font-family: "Times New Roman", Times, serif;
         }
+        .heading {
+          font-size: 50px;
+        }
       }
     </style>
   </head>
-  <body
-    class="bg-gray-100 flex flex-col justify-center items-center pt-2 font-times"
-  >
+  <body class="flex flex-col justify-center items-center pt-2 font-times">
     <!-- Half-size A4 Page Container -->
     <div
       id="coverPagePreview"
-      class="w-[397px] h-[561px] bg-white border border-gray-300 shadow-lg p-[12.5mm_10mm] box-border overflow-hidden m-auto"
+      class="w-[397px] h-[561px] bg-white p-[8mm_8mm] box-border overflow-hidden m-auto border"
     >
       <!-- Logo -->
       <div class="w-full flex justify-center items-center mb-2.5">
@@ -31,7 +32,7 @@
       </div>
 
       <!-- University Name -->
-      <h1 class="text-center text-[16px] font-bold text-green-600 mb-2.5">
+      <h1 class="text-center text-[16px] font-bold text-green-600 mb-2">
         <span class="block my-1"
           >IUBAT - International University of Business</span
         >
@@ -39,45 +40,55 @@
       </h1>
 
       <!-- Assignment Info -->
-      <div class="text-center mt-[30px]">
-        <h2 class="flex justify-center items-center text-[10px] font-bold mb-1">
+      <div class="text-center mt-[20px]">
+        <h2
+          class="flex justify-center items-center text-[16px] font-bold mb-1.5"
+        >
           Assignment No: 1
         </h2>
-        <h4 id="CoverPhotoTitle" class="text-[15px]"></h4>
-        <p id="CourseName" class="text-[9px] mb-1.5">
+
+        <h4 id="CoverPhotoTitle" class="text-[17px] font-bold mb-1.5">
+          Global Warming
+        </h4>
+
+        <p id="CourseName" class="text-[14px] mb-1.2">
           Course Name: Software Engineering
         </p>
-        <p id="Courseode" class="text-[9px] mb-1.5">Course Code: CSE-450</p>
+        <p id="CourseCode" class="text-[14px] mb-1.2">Course Code: CSE-450</p>
       </div>
 
       <!-- Submitted To -->
-      <section class="text-center mt-[30px]">
-        <h2 class="flex justify-center items-center text-[10px] font-bold mb-1">
+      <section class="text-center mt-[20px]">
+        <h2
+          class="flex justify-center items-center text-[16px] font-bold mb-1.5"
+        >
           Submitted To
         </h2>
-        <p id="FacultyName" class="text-[9px] mb-1.5">Krishna Sinha Anan</p>
-        <p id="FacultyDesignation" class="text-[9px] mb-1.5">Lecturer</p>
-        <p id="FacultyDepartment" class="text-[9px] mb-1.5">
+        <p id="FacultyName" class="text-[14px] mb-1.2">Krishna Sinha Anan</p>
+        <p id="FacultyDesignation" class="text-[14px] mb-1.2">Lecturer</p>
+        <p id="FacultyDepartment" class="text-[14px] mb-1.2">
           Department of CSE, IUBAT
         </p>
       </section>
 
       <!-- Submitted By -->
-      <section class="text-center mt-[30px]">
-        <h2 class="flex justify-center items-center text-[10px] font-bold mb-1">
+      <section class="text-center mt-[20px]">
+        <h2
+          class="flex justify-center items-center text-[16px] font-bold mb-1.5"
+        >
           Submitted By
         </h2>
-        <p id="StudentName" class="text-[9px] mb-1.5">Krishna Sinha Anan</p>
-        <p id="StudentId" class="text-[9px] mb-1.5">ID: 22103425</p>
-        <p id="StudentSection" class="text-[9px] mb-1.5">Section: A</p>
+        <p id="StudentName" class="text-[14px] mb-1.2">Krishna Sinha Anan</p>
+        <p id="StudentId" class="text-[14px] mb-1.2">ID: 22103425</p>
+        <p id="StudentSection" class="text-[14px] mb-1.2">Section: A</p>
       </section>
 
       <!-- Date -->
       <h2
-        class="flex justify-center items-center text-[10px] font-bold mt-[50px]"
+        class="flex justify-center items-center text-[14px] font-bold mt-[20px]"
       >
         Date Of Submission:
-        <span id="DateOfSubmission" class="font-light text-[9px] ml-1"
+        <span id="DateOfSubmission" class="font-light text-[14px] ml-1"
           >10.12.2001</span
         >
       </h2>
