@@ -16,11 +16,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const studentID = document.getElementById("studentID").value; // get value here!
     const section = document.getElementById("section").value;
     const serial = document.getElementById("serial").value;
-    const program = document.getElementById("program").value;
-    const submissionDate = document.getElementById("submissionDate").value;
 
+    const submissionDate = document.getElementById("submissionDate").value;
+    const facultyDept = document.getElementById("facultyDept").value;
     // Put variables into formData object
     const formData = {
+      facultyDept,
       department,
       reportType,
       reportNo,
@@ -33,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
       studentID,
       section,
       serial,
-      program,
+
       submissionDate,
     };
 
